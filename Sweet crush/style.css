@@ -35,14 +35,25 @@ h1 {
 body {
   background-image: url("candy-crush-background-2.png");
   max-width: 100vh;
-  display: flex;
+}
+
+#title{
+  font-family: 'Cinzel Decorative', serif;
+  font-family: 'Cookie', cursive;
+  font-size: 125px;
+  color: rgb(238, 12, 162);
+  padding: 10px;
+  margin: 10px;
+  margin-left: 400px;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(186, 8, 142);
 }
 
 .score-board {
   background-color: pink;
   border-radius: 10px;
   margin-top: 200px;
-  margin-left: 200px;
+  margin-left: 400px;
   margin-bottom: 350px;
   min-width: 200px;
 
@@ -55,3 +66,9 @@ body {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5) inset, 0 1px 0 #fff;
   color: #85796b;
 }
+
+.container{
+  display: flex;
+}
+
+
